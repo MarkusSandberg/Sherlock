@@ -1,0 +1,72 @@
+body {
+  font-family:"David Libre", serif;
+  background-size:cover;
+  background-image:url("../img/london_eye.jpg");
+  background-size:contain;
+}
+.images img{
+  border-style:groove;
+  border-color:#fabf65;
+  border-width:5px;
+  margin:15px;
+}
+.meny {
+  font-family:"David Libre", serif;
+  float:right;
+}
+
+.meny {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  background-color:transparent;
+}
+
+.meny li {
+  float:left;
+  border-width:10px;
+  padding:10px;
+}
+
+/* Menyns länkar som går att klicka på. Specifiserar bland annat position,
+ dekoration, och padding. */
+.meny a {
+  display:block;
+  list-style-type:none;
+  text-align:center;
+  clear:left;
+  text-decoration:none;
+  padding:5px 15px;
+  color:#001d4b;
+  border-style:groove;
+  border-width:10px;
+  border-color:#fabf65;
+  background-color:white;
+  font-weight:bold;
+  box-shadow: 3px 3px 4px black;
+}
+
+/* Funktionen som gör att länkarna förändras när man håller musen över. */
+.meny a:hover {
+  font-weight:bold;
+  color:white;
+  box-shadow: 6px 6px 8px black;
+  background-image:url("../img/london_sky.jpg");
+
+}
+/* Specifiserar titeln "Sherlock" färg, bakgrund, border och padding. */
+ .header{
+  color:white;
+  border-style:groove;
+  display:block;
+  padding:20px;
+  text-align:center;
+  border-color:silver;
+  border-width:5px;
+  text-shadow: 5px 5px 3px black;
+  box-shadow: 5px 5px 3px black;
+  margin-top:10px;
+  background-image:url("../img/london_sky.jpg");
+  background-size:contain;
+}
